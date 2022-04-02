@@ -33,7 +33,7 @@ function setup(){
 }
 
 function draw(){
-    background(0);
+    background(255,255,0);//changed background color to yellow
     Engine.update(engine);
     console.log(box2.body.position.x);
     console.log(box2.body.position.y);
